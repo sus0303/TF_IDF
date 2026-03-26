@@ -36,7 +36,7 @@ def tokenize_and_stem(text: str):
     stems = [stemmer.stem(t) for t in tokens]
     return stems
 
-if st.button("Calcular TF-IDF y buscar respuesta"):
+if st.button("Calcular TF-IDF y buscar respuesta ✎ᝰ."):
     documents = [d.strip() for d in text_input.split("\n") if d.strip()]
     if len(documents) < 1:
         st.warning("⚠️ Ingresa al menos un documento.")
