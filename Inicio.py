@@ -5,13 +5,13 @@ import pandas as pd
 import re
 from nltk.stem import SnowballStemmer
 
-st.title("Demo de TF-IDF con Preguntas y Respuestas")
+st.title("⊹₊˚‧︵‿₊୨ Demo de TF-IDF con Preguntas y Respuestas ୧₊‿︵‧˚₊⊹")
 
 st.write("""
 Cada línea se trata como un **documento** (puede ser una frase, un párrafo o un texto más largo).  
-⚠️ Los documentos y las preguntas deben estar en **inglés**, ya que el análisis está configurado para ese idioma.  
+⚠️ Los documentos y las preguntas deben estar en **inglés**, ya que el análisis está configurado para ese idioma!!!  
 
-La aplicación aplica normalización y *stemming* para que palabras como *playing* y *play* se consideren equivalentes.
+La aplicación aplica normalización y *stemming* para que palabras como *playing* y *play* se consideren equivalentes.ᐟ
 """)
 
 # Ejemplo inicial en inglés
